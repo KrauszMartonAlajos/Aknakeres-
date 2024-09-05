@@ -65,7 +65,8 @@ namespace AknakeresőWinForms
                 { 0, 1 },
                 { 1, -1 },
                 { 1, 0 },
-                { 1, 1 }
+                { 1, 1 },
+                { 0,0}
                 };
 
                 for (int i = 0; i < iranyok.GetLength(0); i++)
@@ -76,6 +77,10 @@ namespace AknakeresőWinForms
                     {
                         if (matrix[X][Y] != -1)
                         {
+                            if (dataGridView1.Rows[X].Cells[Y].Value.ToString() == "X")
+                            {
+                                MezokFelfed(X, Y);
+                            }
                             dataGridView1.Rows[X].Cells[Y].Value = matrix[X][Y];
                         }
                     }
