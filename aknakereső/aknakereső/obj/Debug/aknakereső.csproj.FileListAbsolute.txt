@@ -12,3 +12,10 @@ H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.Asse
 H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.CoreCompileInputs.cache
 H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.exe
 H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.pdb
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\bin\Debug\aknakereső.exe.config
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\bin\Debug\aknakereső.exe
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\bin\Debug\aknakereső.pdb
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.AssemblyReference.cache
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.CoreCompileInputs.cache
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.exe
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.pdb

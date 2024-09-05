@@ -1,0 +1,10 @@
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\bin\Debug\AknakeresőWinForms.exe.config
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\bin\Debug\AknakeresőWinForms.exe
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\bin\Debug\AknakeresőWinForms.pdb
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.csproj.AssemblyReference.cache
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.Form1.resources
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.Properties.Resources.resources
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.csproj.GenerateResource.cache
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.csproj.CoreCompileInputs.cache
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.exe
+C:\Users\xboxh\Desktop\aknakereső\Aknakeres-\AknakeresőWinForms\AknakeresőWinForms\obj\Debug\AknakeresőWinForms.pdb
