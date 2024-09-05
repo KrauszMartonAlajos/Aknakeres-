@@ -5,3 +5,10 @@ H:\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.AssemblyReference.cache
 H:\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.CoreCompileInputs.cache
 H:\aknakereső\aknakereső\obj\Debug\aknakereső.exe
 H:\aknakereső\aknakereső\obj\Debug\aknakereső.pdb
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\bin\Debug\aknakereső.exe.config
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\bin\Debug\aknakereső.exe
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\bin\Debug\aknakereső.pdb
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.AssemblyReference.cache
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.CoreCompileInputs.cache
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.exe
+H:\akna_git\Aknakeres-\aknakereső\aknakereső\obj\Debug\aknakereső.pdb

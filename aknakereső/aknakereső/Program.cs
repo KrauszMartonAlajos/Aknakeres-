@@ -15,10 +15,11 @@ namespace aknakereső
 
         static void Main(string[] args)
         {
-            MatrixGeneral();
+
             ParameterBekeres();
 
             MatrixFeltolt(szel,mag);
+            MatrixGeneral();
             MatrixAbrazol();
             Console.ReadKey();
         }
@@ -65,8 +66,15 @@ namespace aknakereső
 
         private static void MatrixGeneral()
         {
-            //int aknaSzam = 10;
-            //for int 
+            Random rnd = new Random();
+            for (int i = 0; i <= aknaszam; i++)
+            {
+                
+                int x = rnd.Next(1, szel);
+                int y = rnd.Next(1, mag);
+
+                matrix[x][y] = -1;
+            }
         }
     }
 }
