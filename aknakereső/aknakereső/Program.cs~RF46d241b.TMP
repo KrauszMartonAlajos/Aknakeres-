@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace aknakereső
+{
+    internal class Program
+    {
+        public static List<List<string>> matrix = new List<List<string>>();
+        static void Main(string[] args)
+        {
+            MatrixGeneral();
+            MatrixFeltolt();
+            MatrixAbrazol();
+            Console.ReadKey();
+        }
+
+        private static void MatrixGeneral()
+        {
+            for (int i = 0; i < 21; i++)
+            {
+                for (int j = 0; j < 21; j++)
+                {
+                    matrix[i][j] = "blank";
+                }
+            }
+        }
+
+        private static void MatrixAbrazol()
+        {
+            for (int i = 0; i < matrix.Count(); i++)
+            {
+                for (int j = 0; j < matrix[0].Count(); j++)
+                {
+                    Console.Write(matrix[i][j] +"|");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        private static void MatrixFeltolt()
+        {
+            //int aknaSzam = 10;
+            //for int 
+        }
+    }
+}

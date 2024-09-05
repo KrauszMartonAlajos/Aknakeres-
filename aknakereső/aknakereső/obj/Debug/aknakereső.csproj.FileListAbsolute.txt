@@ -1,0 +1,7 @@
+H:\aknakereső\aknakereső\bin\Debug\aknakereső.exe.config
+H:\aknakereső\aknakereső\bin\Debug\aknakereső.exe
+H:\aknakereső\aknakereső\bin\Debug\aknakereső.pdb
+H:\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.AssemblyReference.cache
+H:\aknakereső\aknakereső\obj\Debug\aknakereső.csproj.CoreCompileInputs.cache
+H:\aknakereső\aknakereső\obj\Debug\aknakereső.exe
+H:\aknakereső\aknakereső\obj\Debug\aknakereső.pdb

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\aknakeres\u0151\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2F22C4-827F-4A08-AE2B-8EEBCA48DD3D}|aknakeres\u0151\\aknakeres\u0151.csproj|h:\\aknakeres\u0151\\aknakeres\u0151\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C2F22C4-827F-4A08-AE2B-8EEBCA48DD3D}|aknakeres\u0151\\aknakeres\u0151.csproj|solutionrelative:aknakeres\u0151\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\aknakeres\u0151\\aknakeres\u0151\\Program.cs",
+              "RelativeDocumentMoniker": "aknakeres\u0151\\Program.cs",
+              "ToolTip": "H:\\aknakeres\u0151\\aknakeres\u0151\\Program.cs",
+              "RelativeToolTip": "aknakeres\u0151\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:01:01.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
