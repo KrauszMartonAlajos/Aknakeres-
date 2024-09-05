@@ -36,6 +36,7 @@ namespace AknakeresőWinForms
         }
         private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            NyertE();
             int x = e.RowIndex;
             int y = e.ColumnIndex;
             if (matrix[x][y] == -1)
@@ -45,9 +46,29 @@ namespace AknakeresőWinForms
                 return;
             }
             MezokFelfed(x, y);
+            NyertE();
         }
 
-
+        private void NyertE()
+        {
+            int db = 0;
+            foreach (DataGridViewRow sor in dataGridView1.Rows)
+            {
+                foreach (DataGridViewCell cell in sor.Cells)
+                {
+                    if (cell.Value != null && cell.Value.ToString() == "X")
+                    {
+                        db++;
+                    }
+                }
+            }
+            if (aknaszam == db)
+            {
+                MessageBox.Show("GG");
+                this.Close();
+            }
+        }
+        public static int db = 0;
         private void MezokFelfed(int x, int y)
         {
             if (matrix[x][y] != 0)
@@ -80,8 +101,10 @@ namespace AknakeresőWinForms
                             if (dataGridView1.Rows[X].Cells[Y].Value.ToString() == "X")
                             {
                                 MezokFelfed(X, Y);
+                                
                             }
                             dataGridView1.Rows[X].Cells[Y].Value = matrix[X][Y];
+                                                    
                         }
                     }
                 }
