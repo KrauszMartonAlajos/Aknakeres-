@@ -19,6 +19,7 @@ namespace AknakeresőWinForms
         {
             InitializeComponent();
             dataGridView1.CellClick += DataGridView1_CellClick;
+            this.Resize += new EventHandler(Form_Resize);
         }
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
@@ -37,6 +38,7 @@ namespace AknakeresőWinForms
         private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             NyertE();
+            palyaSzinez();
             int x = e.RowIndex;
             int y = e.ColumnIndex;
             if (matrix[x][y] == -1)
@@ -47,6 +49,8 @@ namespace AknakeresőWinForms
             }
             MezokFelfed(x, y);
             NyertE();
+            palyaSzinez();
+            this.dataGridView1.ClearSelection();
         }
 
         private void NyertE()
@@ -116,12 +120,47 @@ namespace AknakeresőWinForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            meret = Convert.ToInt32(numericUpDown1.Value);
-            aknaszam = Convert.ToInt32(numericUpDown2.Value);
-            MatrixFeltolt(meret, meret);
-            MatrixGeneral();
-            MezoCheck();
-            MatrixAbrazol();
+            if (Convert.ToInt32(numericUpDown1.Value) * Convert.ToInt32(numericUpDown1.Value) < Convert.ToInt32(numericUpDown2.Value))
+            {
+                MessageBox.Show("Túl sok akna és túl kicsi pálya!");
+            }
+            else if (Convert.ToInt32(numericUpDown1.Value) == 0 || Convert.ToInt32(numericUpDown2.Value) == 0)
+            {
+                MessageBox.Show("Adjon meg értékeket!");
+            }
+            else
+            {
+                meret = Convert.ToInt32(numericUpDown1.Value);
+                aknaszam = Convert.ToInt32(numericUpDown2.Value);
+                MatrixFeltolt(meret, meret);
+                MatrixGeneral();
+                MezoCheck();
+                MatrixAbrazol();
+                palyaSzinez();
+            }            
+        }
+
+        private void palyaSzinez()
+        {
+            for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                for (int j = 0; j < dataGridView1.Columns.Count; j++)
+                {
+                    var hehe = dataGridView1.Rows[i].Cells[j];
+                    if (hehe.Value != null && hehe.Value.ToString() == "X")
+                    {
+                        hehe.Style.BackColor = Color.Green;
+                    }
+                    else if (hehe.Value != null && hehe.Value.ToString() == "0")
+                    {
+                        hehe.Style.BackColor = Color.SandyBrown;
+                    }
+                    else if (hehe.Value != null && Convert.ToInt32(hehe.Value) > 0)
+                    {
+                        hehe.Style.BackColor = Color.Brown;
+                    }
+                }
+            }
         }
 
         private void MatrixAbrazol()
@@ -239,5 +278,23 @@ namespace AknakeresőWinForms
             return n;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            CenterPanel();
+        }
+        private void CenterPanel()
+        {
+            int szel = panel1.Width;
+            int mag = panel1.Height;
+
+            int x = (this.ClientSize.Width - szel) / 2;
+            int y = (this.ClientSize.Height - mag) / 2;
+
+            panel1.Location = new System.Drawing.Point(x, y);
+        }
+        private void Form_Resize(object sender, EventArgs e)
+        {
+            CenterPanel();
+        }
     }
 }
